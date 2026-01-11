@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
+
 
 @main
-struct FlashMemoryApp: App {
+struct FlashMemoryApp: App {    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FlashMemory()
         }
+        .modelContainer(for: [FlashCard.self, Deck.self])
     }
 }
+
