@@ -8,8 +8,8 @@ FlashMemory is a Swift-based flashcard application designed to supercharge reten
 - **Acoustic Encoding**: Features designed to leverage sound patterns and phonetic associations for better information retrieval.
 
 ### 🛠 Tech Stack
-**Language**: Swift / Swift UI
-**Platform**: iOS
+- **Language**: Swift / Swift
+- **Platform**: iOS
 
 ### Developer
 Tobias Lin
